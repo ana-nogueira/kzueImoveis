@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.heading {
+  background-image: url(./assets/img/hero.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.heading-content {
+  padding: 5px;
+}
+
+.heading-icon,
+.heading-icon-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heading-icon-wrapper {
+  width: 80vw;
+}
+
+.heading-open {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.3;
+  margin-left: auto;
+}
+
+.heading-view {
+  fill: #ffffffe6;
+}
+
+.heading-open,
+.heading-view,
+.heading-logo {
+  width: 100%;
+}
+
+.heading-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading-info-wrapper {
+  font-size: 1.8rem;
+  width: 28ch;
+  font-family: "Helvetica", sans-serif;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.heading-info-wrapper h1 {
+  margin: 15px 0;
+}
+
+.heading-logo-wrapper {
+  width: 300px;
+  fill: #fff;
+}
+
+@media (max-width: 1280px) {
+  .heading-icon-wrapper {
+    width: 100%;
+  }
+}
+
+@media (max-width: 760px) {
+  .heading {
+    background-image: url(./assets/img/hero-mobile.jpg);
+    height: 80vh;
+  }
+.heading-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+  .heading-info {
+    display: grid;
+    justify-content: center;
+  }
+  .heading-info-wrapper {
+    font-size: 1.25rem;
+    width: 30ch;
+  }
+  .heading-logo-wrapper {
+    grid-row: 1;
+    width: 200px;
+  }
+}
