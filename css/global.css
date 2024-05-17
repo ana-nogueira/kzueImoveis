@@ -1,13 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: "Helvetica", sans-serif;
+  font-family: "Readex Pro", sans-serif;
 }
 
 .container {
   max-width: 1260px;
   margin: 0 auto;
+  padding: 0px 20px;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 h1,
 h2,
 h3,
@@ -18,9 +29,24 @@ span {
 }
 
 .btn {
-  padding: 12px 24px;
+  padding: 10px 24px;
+  width: 100%;
+  font-family: 'Readex Pro', sans-serif;
   font-size: 1.125rem;
+  font-weight: 500;
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
   cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+  .btn:hover {
+    transform: scale(1.03); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+  }
+
+.orange {
+  background-color: #E15B27;
+  color: #fff;
+}
+

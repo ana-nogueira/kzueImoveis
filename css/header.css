@@ -44,7 +44,6 @@
 .heading-info-wrapper {
   font-size: 1.8rem;
   width: 28ch;
-  font-family: "Helvetica", sans-serif;
   color: #fff;
   line-height: 1.2;
 }
@@ -91,5 +90,12 @@
     grid-row: 1;
     width: 200px;
     justify-self: center;
+  }
+}
+
+@media (max-width: 390px) {
+    .heading-info-wrapper {
+    font-size: 1rem;
+    width: 30ch;
   }
 }
