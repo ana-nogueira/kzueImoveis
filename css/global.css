@@ -24,7 +24,8 @@ h2,
 h3,
 h4,
 p,
-span {
+span, 
+ul {
   margin: 0;
   padding: 0;
 }
