@@ -15,13 +15,23 @@
       padding: 0;
     }
 
+
+    .images-carroussel-title h2 {
+        font-size: 2.5rem;
+        color: #fff;
+    }
+
     .images-carroussel-bg {
         background-color: #000;
     }
 
     .images-carroussel {
-        padding: 0 40px;
+        padding: 40px  0;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
     }
 
     .swiper {
