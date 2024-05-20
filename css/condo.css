@@ -1,0 +1,14 @@
+.condo-content-bg {
+  background-color: #c4bab7;
+}
+.condo-content-info {
+  padding: 60px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+}
+
+.condo-content-img {
+  flex-grow: 1;
+  background-size: cover;
+}
