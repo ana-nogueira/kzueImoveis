@@ -8,7 +8,6 @@
   gap: 30px;
   margin: 0 78px;
   padding-bottom: 40px;
-
 }
 
 .condo-content-title h2 {
@@ -17,65 +16,11 @@
   font-weight: 400;
 }
 
-.condo-content-apts {
-  display: flex;
-  flex-wrap: wrap;
-
-}
-.apts-items,
-.apts-items li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.apts-items {
-  gap: min(20px, 3vw);
-  padding: 5px;
-  flex-wrap: wrap;
-}
-
-.apts-items li {
-  background-color: antiquewhite;
-  border-radius: 5px;
-  padding: 2px 16px;
-}
-
-.apts-items li span:nth-of-type(1) {
-  min-width: 32px;
-  min-height: 32px;
-  margin-right: 8px;
-  display: flex;
-  align-items: center;
-
-}
-
-
-.apts-items li span:nth-of-type(2) {
-  padding-left: 5px;
-  font-size: 1.9rem;
-  font-weight: 400;
-  line-height: 1.5em;
-  text-align: center;
-}
-
-@media (max-width: 1024px) {
-  .apts-items li span:nth-of-type(2) {
-  font-size: 1.2rem;
-  line-height: 1.3em;
-}
-}
-
 @media (max-width: 750px) {
-.condo-content {
-  margin: 0 auto;
-}
-
-
-.apts-items li span:nth-of-type(2) {
-  font-size: 1.1rem;
-}
-.condo-content-title h2 {
-  font-size: 1.5rem;
-}
+  .condo-content {
+    margin: 0 auto;
+  }
+  .condo-content-title h2 {
+    font-size: 1.5rem;
+  }
 }

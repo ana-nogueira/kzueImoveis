@@ -1,6 +1,7 @@
 @import "./css/global.css";
+@import "./css/cards.css";
 @import "./css/header.css";
 @import "./css/location.css";
 @import "./css/condo.css";
-@import './css/swiper.css';
-@import './css/plantas.css';
+@import "./css/swiper.css";
+@import "./css/plantas.css";
