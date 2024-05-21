@@ -1,11 +1,9 @@
-
-
-        html,
+    html,
     body {
       position: relative;
       height: 100%;
     }
-    
+
     body {
       background: #eee;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -15,28 +13,10 @@
       padding: 0;
     }
 
-
-    .images-carroussel-title h2 {
-        font-size: 2.5rem;
-        color: #fff;
-    }
-
-    .images-carroussel-bg {
-        background-color: #000;
-    }
-
-    .images-carroussel {
-        padding: 40px  0;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-        align-items: center;
-    }
-
     .swiper {
-      width: 100%;
+      width: 80%;
       height: 100%;
+      border-radius: 20px;
     }
 
     .swiper-slide {
@@ -53,4 +33,43 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
+
     }
+
+    .images-carroussel-title h2 {
+        font-size: 2.5rem;
+        color: #fff;
+        text-align: center;
+    }
+
+    .images-carroussel-bg {
+        background-color: #282828;
+    }
+
+    .images-carroussel {
+        padding: 40px  0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    
+
+    @media (max-width: 760px) {
+      .images-carroussel {
+        height: 450px;
+      }
+      .images-carroussel-title h2 {
+        font-size: 1.875rem;
+      }
+    }
+@media (max-width: 460px)  {
+        .images-carroussel-title h2 {
+        font-size: 1.4rem;
+      }
+            .images-carroussel {
+        height: 350px;
+      }
+}

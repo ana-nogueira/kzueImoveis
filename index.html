@@ -16,10 +16,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css" />
     <title>Open View Floripa</title>
   </head>
@@ -388,7 +385,6 @@
       <div class="container">
         <div class="images-carroussel">
           <div class="images-carroussel-title">
-            
             <h2>Aqui seu <span>conforto</span> vai atingir o topo</h2>
           </div>
           <div class="swiper mySwiper">
@@ -429,18 +425,53 @@
       </div>
     </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        pagination: {
-          el: ".swiper-pagination",
-          type: "fraction",
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
-    </script>
+
+    <section class="plantas-bg">
+      <div class="container">
+        <div class="plantas-content">
+          <div class="plantas-title">
+            <h2>
+              Plantas que valorizam o privilégio de viver bem
+            </h2>
+              <span>De 63,75m² a 92,92m²</span>
+          </div>
+            <div class="plantas-items">
+              <button class="plantas-tab" data-planta="apto-201"><span>Apartamento 201</span></button>
+              <button class="plantas-tab" data-planta="apto-204"><span>Apartamento 204</span></button>
+              <button class="plantas-tab" data-planta="apto-301-a-801"><span>Apartamento 301 a 801</span></button>
+              <button class="plantas-tab" data-planta="apto-304-a-804"><span>Apartamento 304 a 804</span></button>
+              <button class="plantas-tab" data-planta="apto-202-a-802"><span>Apartamento 202 a 802</span></button>
+              <button class="plantas-tab" data-planta="apto-203-a-803"><span>Apartamento 203 a 803</span></button>
+              <button class="plantas-tab" data-planta="terreo"><span>Térreo</span></button>
+              <button class="plantas-tab" data-planta="subsolo"><span>Subsolo</span></button>
+              <button class="plantas-tab" data-planta="cobertura"><span>Cobertura</span></button>
+            </div>
+          <div class="plantas-img">
+            <img src="./assets/img/plantas/apto-201.png">
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
   </body>
 </html>

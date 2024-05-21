@@ -1,0 +1,57 @@
+.plantas-bg {
+    background-color: #282828;
+}
+
+.plantas-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.plantas-title {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.plantas-title h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.plantas-title span {
+    color: #e15b27;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+
+.plantas-items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px 30px;
+
+}
+
+.plantas-tab {
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: .3s;
+}
+
+.plantas-tab:hover {
+    background-color: #e15b27;
+
+}
+
+.plantas-tab span {
+font-size: 1.2rem;
+font-weight: bold;
+}

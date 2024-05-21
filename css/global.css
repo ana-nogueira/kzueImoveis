@@ -14,6 +14,9 @@ body {
   padding: 0px 15px;
 }
 
+
+
+
 a {
   text-decoration: none;
   color: inherit;
@@ -25,10 +28,16 @@ h3,
 h4,
 p,
 span, 
-ul {
+ul,
+li {
   margin: 0;
   padding: 0;
 }
+
+li {
+  list-style: none;
+}
+
 
 .btn {
   padding: 10px 24px;
