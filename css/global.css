@@ -60,3 +60,16 @@ li {
   background-color: #e15b27;
   color: #fff;
 }
+
+.selected {
+  background-color: #e15b27;
+}
+
+
+.plantas-details.card-content {
+  display: none;
+}
+
+.plantas-details.card-content.active {
+  display: block;
+}
