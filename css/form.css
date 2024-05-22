@@ -1,0 +1,39 @@
+.forms-bg {
+    background-color: antiquewhite;
+}
+
+.forms {
+    padding: 60px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.forms-title {
+    text-align: center;
+}
+
+.forms-title h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.forms-title p{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+form input {
+    padding: 18px 10px;
+    border-radius: 15px;
+    border: none;
+}

@@ -7,6 +7,7 @@ console.log (plantasImg.getAttribute('src'))
 btns.forEach ((btn) => {
     
     btn.addEventListener ('click', handleBtnClick);
+    btn.addEventListener ('touchstart', handleBtnClick);
 })
 
 function handleBtnClick (event) {
