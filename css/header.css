@@ -1,27 +1,35 @@
 .heading {
-  background-image: url(../assets/img/hero.png);
+  background-image: url(../assets/img/alternativa4.jpg
+  );
   background-size: cover;
   background-position: center;
+  height:85vh;
 }
 
 .heading-content {
   padding: 5px;
+  height: 100%;
+  display: flex;
 }
+
 
 .heading-icon,
 .heading-icon-wrapper {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .heading-icon-wrapper {
-  width: 80vw;
+  width: 600px;
 }
 
 .heading-open {
   fill: none;
   stroke: #fff;
-  stroke-width: 0.3;
+  stroke-width: 0.5;
   margin-left: auto;
 }
 
@@ -33,23 +41,6 @@
 .heading-view,
 .heading-logo {
   width: 100%;
-}
-
-.heading-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.heading-info-wrapper {
-  font-size: 1.8rem;
-  width: 28ch;
-  color: #fff;
-  line-height: 1.2;
-}
-
-.heading-info-wrapper h1 {
-  margin: 15px 0;
 }
 
 .heading-logo-wrapper {
@@ -65,31 +56,26 @@
 
 @media (max-width: 760px) {
   .heading {
-    background-image: url(../assets/img/hero-mobile.jpg);
-    height: 80vh;
+    background-image: url(../assets/img/fachada-mobile.jpg);
+    height: 75vh;
   }
   .heading-content {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     height: 100%;
   }
 
+.heading-icon {
+  justify-content: space-between;
+  padding: 15px;
+}
+
   .heading-view {
     padding-bottom: 10px;
-  }
-  .heading-info {
-    display: grid;
-    text-align: center;
-  }
-  .heading-info-wrapper {
-    font-size: 1.25rem;
-    width: 30ch;
+    width: 320px;
   }
   .heading-logo-wrapper {
-    grid-row: 1;
     width: 200px;
-    justify-self: center;
   }
 }
 

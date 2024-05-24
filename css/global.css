@@ -73,3 +73,10 @@ li {
 .plantas-details.card-content.active {
   display: block;
 }
+
+
+@media (max-width: 760px) {
+  .container {
+    padding: 0 30px;
+  }
+}

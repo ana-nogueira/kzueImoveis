@@ -1,0 +1,37 @@
+.navbar-bg {
+    background-color:#282828 ;
+}
+
+.navbar-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.kzue-logo {
+    max-width: 150px;
+}
+
+.kzue-logo img {
+    width: 100%;
+}
+
+.wpp-link {
+    padding: 8px 15px;
+    background-color: #036b2f;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+
+@media (max-width: 760px) {
+.kzue-logo {
+    max-width: 100px;
+}
+.wpp-link {
+     padding: 5px 10px;
+     font-size: 1rem;
+}
+}

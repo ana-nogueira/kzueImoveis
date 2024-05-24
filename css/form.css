@@ -32,7 +32,18 @@
     gap: 20px;
 }
 
-form input {
+
+.form-mail {
+    display: flex;
+    gap: 10px;
+}
+
+.form-mail input {
+    flex-grow: 1;
+}
+
+form input,
+form textarea {
     padding: 18px 10px;
     border-radius: 15px;
     border: none;
